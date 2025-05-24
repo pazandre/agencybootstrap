@@ -811,6 +811,49 @@ position: relative;
 z-index: 3;
 }
 
+.call-to-action h3{
+
+font-size: 30px;
+font-weight: 700;
+text-shadow: 2px 0px 5px #060606 ;
+
+}
+
+.call-to-action p{
+
+  font-size: 18x;
+  margin-top: 45px;
+  font-weight: 400;
+}
+
+.call-to-action .cta-btn{
+border:2px solid #e3e0e0;
+padding: 12px 40px;
+color: #e3e0e0;
+font-weight: 700;
+font-size: 20px;
+border-radius: 5px;
+transition: all .5s ease-in;
+letter-spacing: 1px;
+font-family: var(--heading-font);
+display: inline-block;
+}
+
+.call-to-action .cta-btn:hover{
+background: #075e54;
+border: 2px solid #075e54;
+
+}
+
+.call-to-action::before{
+content: "";
+background: #39393974;
+position: absolute;
+inset: 0;
+z-index: 2;
+
+}
+
 
 
 
@@ -831,6 +874,7 @@ SCROLL TO TOP
   transition: all 0.4s;
   opacity: 0;
   visibility: hidden;
+  box-shadow: -3px 1px 5px  rgb(35, 35, 35);
 }
 
 .scroll-top.active {
